@@ -9,7 +9,7 @@ public class LongestSubstringWithoutRepeatingCharactersTest {
 
     @Test
     public void lengthOfLongestSubstring() {
-        String s = "pwabc";
+        String s = "pwwkew";
         int max = new LongestSubstringWithoutRepeatingCharacters().lengthOfLongestSubstring(s);
 
         System.out.println(max);

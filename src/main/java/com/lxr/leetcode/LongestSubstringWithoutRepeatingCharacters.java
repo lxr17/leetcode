@@ -1,7 +1,9 @@
 package com.lxr.leetcode;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 /**
  * Given a string, find the length of the longest substring without repeating characters.
@@ -11,38 +13,54 @@ import java.util.List;
  * Output: 3
  * Explanation: The answer is "abc", with the length of 3.
  * <p>
- * 97ms 12.27% Run time
- * 40MB 14.87% Memory
+ * 65ms 18.94% Run time
+ * 39.8MB 16.26% Memory
  */
 public class LongestSubstringWithoutRepeatingCharacters {
 
     public int lengthOfLongestSubstring(String s) {
-        char[] chs = s.toCharArray();
-
         int max = 0;
+        List<Character> characters = new ArrayList<>();
 
-        List<Character> maxStrings = new ArrayList<>();
+        if (s == null) {
+            return max;
+        }
 
-        // find the longest substring from every index
-        for (int i = 0; i < chs.length; i++) {
-            // needn't find where the rest < max
-            if (max >= chs.length - i) {
+        // change the char[] to Character[]
+        for (char ch : s.toCharArray()) {
+            characters.add(ch);
+        }
+
+        if (s.length() > 0) {
+            max = 1;
+        }
+
+        for (int i = 0; i < s.length(); i++) {
+            // needn't continue
+            if (i + max >= s.length()) {
                 break;
             }
 
-            // find the longest substring from index i
-            for (int j = i; j < chs.length; j++) {
-                if (!maxStrings.contains(chs[j])) {
-                    maxStrings.add(chs[j]);
+            // determine if the string contains duplicate characters
+            StringBuilder first = new StringBuilder(s.substring(i, i + max));
+            Set set = new HashSet(characters.subList(i, i + max));
+            if (first.length() > set.size()) {
+                continue;
+            }
+
+            // grow the first string
+            for (int j = i + max; j < s.length(); j++) {
+                if (first.indexOf(Character.toString(s.charAt(j))) == -1) {
+                    first.append(s.charAt(j));
                 } else {
                     break;
                 }
             }
 
-            if (max < maxStrings.size()) {
-                max = maxStrings.size();
+            if (max < first.length()) {
+                max = first.length();
             }
-            maxStrings.clear();
+
         }
 
         return max;
