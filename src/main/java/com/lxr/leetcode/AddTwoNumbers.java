@@ -11,6 +11,9 @@ package com.lxr.leetcode;
  * Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
  * Output: 7 -> 0 -> 8
  * Explanation: 342 + 465 = 807.
+ * <p>
+ * 2ms    98.83% Run time
+ * 46.8MB 51.70% Memory
  */
 public class AddTwoNumbers {
 
