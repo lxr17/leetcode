@@ -9,7 +9,7 @@ import java.util.Set;
  * Given a string, find the length of the longest substring without repeating characters.
  * <p>
  * eg.
- * Input: "abcabcbb"
+ * Input: "abcabcbbb"
  * Output: 3
  * Explanation: The answer is "abc", with the length of 3.
  * <p>
