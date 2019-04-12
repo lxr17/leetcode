@@ -12,6 +12,8 @@ package com.lxr.leetcode;
  * <p>
  * 2ms    100.00% Run time
  * 47.7 MB 90.79% Memory
+ *
+ * note:reference the solution
  */
 public class MedianOfTwoSortedArrays {
 
