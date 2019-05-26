@@ -14,4 +14,12 @@ public class PalindromeNumberTest {
 
         System.out.println(b);
     }
+
+    @Test
+    public void isPalindrome1() {
+        int x = -121;
+        boolean b = new PalindromeNumber().isPalindrome1(x);
+
+        System.out.println(b);
+    }
 }

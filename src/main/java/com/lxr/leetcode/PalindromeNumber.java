@@ -40,4 +40,15 @@ public class PalindromeNumber {
         return isPalindrome;
     }
 
+    /**
+     * 9ms    58.81% Run time
+     * 35.5 MB 64.39% Memory
+     */
+    public boolean isPalindrome1(int x) {
+        String strX = Integer.toString(x);
+        String revX = new StringBuilder(strX).reverse().toString();
+
+        return strX.equals(revX);
+    }
+
 }
