@@ -16,7 +16,7 @@ package com.lxr.leetcode;
 public class ReverseInteger {
 
     /**
-     * 2ms    71.16% Run time
+     * 2ms     71.16% Run time
      * 32.9 MB 100.00% Memory
      */
     public int reverse(int x) {

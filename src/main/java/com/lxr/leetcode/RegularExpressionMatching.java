@@ -52,10 +52,6 @@ public class RegularExpressionMatching {
      * Reference answer
      * 61ms    14.81% Run time
      * 41.2 MB 23.09% Memory
-     *
-     * @param s
-     * @param p
-     * @return
      */
     public boolean isMatch(String s, String p) {
         if (p.isEmpty()) {

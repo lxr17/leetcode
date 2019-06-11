@@ -23,7 +23,7 @@ package com.lxr.leetcode;
 public class PalindromeNumber {
 
     /**
-     * 8ms    68.82% Run time
+     * 8ms     68.82% Run time
      * 35.1 MB 71.77% Memory
      */
     public boolean isPalindrome(int x) {

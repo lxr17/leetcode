@@ -53,7 +53,7 @@ package com.lxr.leetcode;
 public class StringToInteger_Atoi {
 
     /**
-     * 3ms    62.44% Run time
+     * 3ms     62.44% Run time
      * 35.3 MB 99.97% Memory
      */
     public int myAtoi(String str) {

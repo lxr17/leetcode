@@ -13,7 +13,7 @@ public class LongestPalindromicSubstring {
 
     /**
      * 43ms    40.90% Run time
-     * 38.3MB 49.35% Memory
+     * 38.3MB  49.35% Memory
      */
     public String longestPalindrome(String s) {
         if (s.length() == 0) {
