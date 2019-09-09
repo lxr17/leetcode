@@ -20,7 +20,7 @@ public class ReverseNodesInKGroup {
 
     /**
      * 0ms      100.00% Run time
-     * 39MB    22.42 Memory
+     * 39MB    22.42% Memory
      */
     public ListNode reverseKGroup(ListNode head, int k) {
         ListNode[] ans = null;
