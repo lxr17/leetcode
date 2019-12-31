@@ -1,6 +1,6 @@
 # LeetCode练习目录表
 
-<span style="display: inline-block; padding: 2px 8px; background: red; color: #fff;font-weight: bold;border-radius: 16px;">简单</span>
+<font color="red">简单</font>
 
 | # | 题目 | 解法 | 难度 | 时间复杂度 | 空间复杂度 |
 |---| ----- | -------- | ---------- | ----------- | ------------- |
