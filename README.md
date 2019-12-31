@@ -1,10 +1,8 @@
 # LeetCode练习目录表
 
-<font color="red">简单</font>
-
 | # | 题目 | 解法 | 难度 | 时间复杂度 | 空间复杂度 |
 |---| ----- | -------- | ---------- | ----------- | ------------- |
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/TwoSum.java) | <span style="display: inline-block; padding: 2px 8px; background: red; color: #fff;font-weight: bold;border-radius: 16px;">简单</span> | 99.85% | 88.71% |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/TwoSum.java) | 简单 | 99.85% | 88.71% |
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/AddTwoNumbers.java) | 中等 | 98.83% | 51.70% |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/LongestSubstringWithoutRepeatingCharacters.java) | 中等 | 18.94% | 16.26% |
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/MedianOfTwoSortedArrays.java) | 困难 | 100.00% | 90.79% |
