@@ -1,5 +1,7 @@
 # LeetCode练习目录表
 
+<span style="display: inline-block; padding: 2px 8px; background: red; color: #fff;font-weight: bold;border-radius: 16px;">简单</span>
+
 | # | 题目 | 解法 | 难度 | 时间复杂度 | 空间复杂度 |
 |---| ----- | -------- | ---------- | ----------- | ------------- |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/TwoSum.java) | <span style="display: inline-block; padding: 2px 8px; background: red; color: #fff;font-weight: bold;border-radius: 16px;">简单</span> | 99.85% | 88.71% |
