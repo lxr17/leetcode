@@ -1,6 +1,6 @@
 # LeetCode练习目录表
 
-| # | 题目 | 解法 | 难度 | 时间复杂度(超过) | 空间复杂度(超过) |
+| # | 题目 | 解法 | 难度 | 时间复杂度 | 空间复杂度 |
 |---| ----- | -------- | ---------- | ----------- | ------------- |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/TwoSum.java) | 简单 | 99.85% | 88.71% |
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/AddTwoNumbers.java) | 中等 | 98.83% | 51.70% |
