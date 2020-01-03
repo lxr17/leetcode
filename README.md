@@ -1,4 +1,4 @@
-# LeetCode练习目录表
+# LeetCode
 
 | # | 题目 | 解法 | 难度 | 时间复杂度 | 空间复杂度 |
 |---| ----- | -------- | ---------- | ----------- | ------------- |
@@ -46,3 +46,4 @@
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/TrappingRainWater.java) | 困难 | 94.66% | 100.00% |
 | 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/MultiplyStrings.java) | 中等 | 20.40% | 100.00% |
 | 44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/WildcardMatching.java) | 困难 | 77.47% | 93.02% |
+| 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/JumpGameII.java) | 困难 | 27.06% | 100.00% |
