@@ -24,7 +24,7 @@ public class JumpGameII {
      */
     public int jump(int[] nums) {
         // 1.找出第一个能跳到last index的索引记作p1
-        // 2.找出第一个能跳到a的索引记作p2
+        // 2.找出第一个能跳到p1的索引记作p2
         // ...
         // n.直到找到索引0
 
