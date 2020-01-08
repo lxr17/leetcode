@@ -47,3 +47,4 @@
 | 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/MultiplyStrings.java) | 中等 | 20.40% | 100.00% |
 | 44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/WildcardMatching.java) | 困难 | 77.47% | 93.02% |
 | 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/JumpGameII.java) | 困难 | 27.06% | 100.00% |
+| 46 | [Permutations](https://leetcode.com/problems/permutations/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/Permutations.java) | 中等 | 92.85% | 95.74% |
