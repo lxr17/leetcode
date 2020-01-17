@@ -21,7 +21,7 @@ import java.util.List;
  * [-1, -1, 2]
  * ]
  */
-public class _3Sum {// 做一次测试提交。
+public class _3Sum {
 
     /**
      * 时间太长了
