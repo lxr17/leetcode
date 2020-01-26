@@ -49,3 +49,4 @@
 | 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/JumpGameII.java) | 困难 | 27.06% | 100.00% |
 | 46 | [Permutations](https://leetcode.com/problems/permutations/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/Permutations.java) | 中等 | 92.85% | 95.74% |
 | 47 | [Permutations II](https://leetcode.com/problems/permutations-ii/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/PermutationsII.java) | 中等 | 15.65% | 58.21% |
+| 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/RotateImage.java) | 中等 | 100.00% | 5.77% |
