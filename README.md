@@ -51,3 +51,4 @@
 | 47 | [Permutations II](https://leetcode.com/problems/permutations-ii/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/PermutationsII.java) | 中等 | 15.65% | 58.21% |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/RotateImage.java) | 中等 | 100.00% | 5.77% |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/GroupAnagrams.java) | 中等 | 99.49% | 34.50% |
+| 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/PowXN.java) | 中等 | 100.00% | 5.88% |
