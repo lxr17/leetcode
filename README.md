@@ -53,3 +53,4 @@
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/GroupAnagrams.java) | 中等 | 99.49% | 34.50% |
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/PowXN.java) | 中等 | 100.00% | 5.88% |
 | 51 | [N-Queens](https://leetcode.com/problems/n-queens/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/NQueens.java) | 困难 | 37.28% | 5.41% |
+| 52 | [N-Queens II](https://leetcode.com/problems/n-queens-ii/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/NQueensII.java) | 困难 | 9.39% | 8.70% |
