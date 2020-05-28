@@ -56,3 +56,4 @@
 | 52 | [N-Queens II](https://leetcode.com/problems/n-queens-ii/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/NQueensII.java) | 困难 | 9.39% | 8.70% |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/MaximumSubarray.java) | 简单 | 100.00% | 5.16% |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/SpiralMatrix.java) | 中等 | 100.00% | 5.21% |
+| 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/JumpGame.java) | 中等 | 98.90% | 24.79% |
