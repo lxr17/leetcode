@@ -59,3 +59,4 @@
 | 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/JumpGame.java) | 中等 | 98.90% | 24.79% |
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/MergeIntervals.java) | 中等 | 57.53% | 50.00% |
 | 57 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/InsertInterval.java) | 困难 | 98.49% | 75.00% |
+| 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/LengthOfLastWord.java) | 简单 | 41.93% | 7.57% |
