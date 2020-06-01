@@ -61,3 +61,4 @@
 | 57 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/InsertInterval.java) | 困难 | 98.49% | 75.00% |
 | 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/LengthOfLastWord.java) | 简单 | 41.93% | 7.57% |
 | 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/SpiralMatrixII.java) | 中等 | 100.00% | 8.33% |
+| 60 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/PermutationSequence.java) | 中等 | 98.49% | 20.83% |
