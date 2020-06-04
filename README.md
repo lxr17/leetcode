@@ -65,3 +65,4 @@
 | 61 | [Rotate List](https://leetcode.com/problems/rotate-list/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/RotateList.java) | 中等 | 100.00% | 41.38% |
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/UniquePaths.java) | 中等 | 15.77% | 5.10% |
 | 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/UniquePathsII.java) | 中等 | 100.00% | 100.00% |
+| 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/MinimumPathSum.java) | 中等 | 87.92% | 85.13% |
