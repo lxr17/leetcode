@@ -67,3 +67,4 @@
 | 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/UniquePathsII.java) | 中等 | 100.00% | 100.00% |
 | 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/MinimumPathSum.java) | 中等 | 87.92% | 85.13% |
 | 65 | [Valid Number](https://leetcode.com/problems/valid-number/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/ValidNumber.java) | 困难 | 39.99% | 54.66% |
+| 66 | [Plus One](https://leetcode.com/problems/plus-one/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/PlusOne.java) | 简单 | 100.00% | 89.06% |
