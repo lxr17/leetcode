@@ -68,4 +68,5 @@
 | 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/MinimumPathSum.java) | 中等 | 87.92% | 85.13% |
 | 65 | [Valid Number](https://leetcode.com/problems/valid-number/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/ValidNumber.java) | 困难 | 39.99% | 54.66% |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/PlusOne.java) | 简单 | 100.00% | 89.06% |
-| 67 | [Add Binary](https://leetcode.com/problems/add-binary/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/AddBinary.java) | 简单 | 76.04% | 52.79%% |
+| 67 | [Add Binary](https://leetcode.com/problems/add-binary/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/AddBinary.java) | 简单 | 76.04% | 52.79% |
+| 68 | [Text Justification](https://leetcode.com/problems/text-justification/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/TextJustification.java) | 困难 | 53.14% | 90.36% |
