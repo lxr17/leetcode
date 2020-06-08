@@ -71,3 +71,4 @@
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/AddBinary.java) | 简单 | 76.04% | 52.79% |
 | 68 | [Text Justification](https://leetcode.com/problems/text-justification/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/TextJustification.java) | 困难 | 53.14% | 90.36% |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/SqrtX.java) | 简单 | 100.00% | 43.50% |
+| 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/ClimbingStairs.java) | 简单 | 100.00% | 5.05% |
