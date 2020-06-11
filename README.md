@@ -75,3 +75,4 @@
 | 71 | [Simplify Path](https://leetcode.com/problems/simplify-path/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/SimplifyPath.java) | 中等 | 46.92% | 13.48% |
 | 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/EditDistance.java) | 困难 | 11.84% | 5.03% |
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/SetMatrixZeroes.java) | 中等 | 18.57% | 5.77% |
+| 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/SearchA2DMatrix.java) | 中等 | 100.00% | 70.73% |
