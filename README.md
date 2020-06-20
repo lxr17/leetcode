@@ -77,3 +77,4 @@
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/SetMatrixZeroes.java) | 中等 | 18.57% | 5.77% |
 | 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/SearchA2DMatrix.java) | 中等 | 100.00% | 70.73% |
 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/SortColors.java) | 中等 | 100.00% | 57.51% |
+| 76 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/MinimumWindowSubstring.java) | 困难 | 7.14% | 65.16% |
