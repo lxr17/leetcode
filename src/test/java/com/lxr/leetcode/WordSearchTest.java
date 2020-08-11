@@ -15,9 +15,9 @@ public class WordSearchTest {
         board[1] = new char[]{'S', 'F', 'C', 'S'};
         board[2] = new char[]{'A', 'D', 'E', 'E'};
 
-        String word = "SEE";
+        String word = "ABCCFS";
 
-        boolean ans = new WordSearch().exist(board, word);
+        boolean ans = new WordSearch().exist2(board, word);
 
         System.out.println(ans);
     }

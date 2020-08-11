@@ -80,3 +80,4 @@
 | 76 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/MinimumWindowSubstring.java) | 困难 | 7.14% | 65.16% |
 | 77 | [Combinations](https://leetcode.com/problems/combinations/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/Combinations.java) | 中等 | 84.37% | 26.57% |
 | 78 | [Subsets](https://leetcode.com/problems/subsets/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/Subsets.java) | 中等 | 19.42% | 35.66% |
+| 79 | [Word Search](https://leetcode.com/problems/word-search/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/WordSearch.java) | 中等 | 17.76% | 6.83% |
