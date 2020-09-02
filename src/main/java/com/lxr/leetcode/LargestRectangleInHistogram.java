@@ -41,4 +41,45 @@ public class LargestRectangleInHistogram {
         return maxArea;
     }
 
+    /**
+     * 1458ms    5.00% Run time
+     * 43.6MB    38.94% Memory
+     */
+    public int largestRectangleArea2(int[] heights) {
+        // 最大面积
+        int maxArea = 0;
+
+        // 延伸范围
+        int width;
+
+        // 以每个元素为顶点，左右延伸出去，看哪个点扩展的面积最大
+        for (int i = 0; i < heights.length; i++) {
+            // 去除一些不可能的顶点
+            if (heights[i] == 0 || maxArea / heights[i] > heights.length) {
+                continue;
+            }
+
+            // 左延伸
+            int left = i;
+            while (left - 1 >= 0 && heights[left - 1] >= heights[i]) {
+                left--;
+            }
+
+            // 右延伸
+            int right = i;
+            while (right + 1 < heights.length && heights[right + 1] >= heights[i]) {
+                right++;
+            }
+
+            // 比较面积大小
+            width = right - left + 1;
+            int area = heights[i] * width;
+            if (area > maxArea) {
+                maxArea = area;
+            }
+        }
+
+        return maxArea;
+    }
+
 }

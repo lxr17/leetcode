@@ -9,9 +9,9 @@ public class LargestRectangleInHistogramTest {
 
     @Test
     public void largestRectangleArea() {
-        int[] heights = new int[]{2, 1, 5, 6, 2, 3};
+        int[] heights = new int[]{2, 5, 0, 6, 2, 3};
 
-        System.out.println(new LargestRectangleInHistogram().largestRectangleArea(heights));
+        System.out.println(new LargestRectangleInHistogram().largestRectangleArea2(heights));
     }
 
 }
