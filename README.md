@@ -87,3 +87,4 @@
 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/RemoveDuplicatesFromSortedList.java) | 简单 | 100.00% | 50.77% |
 | 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/LargestRectangleInHistogram.java) | 困难 | 9.55% | 42.75% |
 | 85 | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/MaximalRectangle.java) | 困难 | 33.89% | 99.08% |
+| 86 | [Partition List](https://leetcode.com/problems/partition-list/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/PartitionList.java) | 中等 | 100.00% | 53.73% |
