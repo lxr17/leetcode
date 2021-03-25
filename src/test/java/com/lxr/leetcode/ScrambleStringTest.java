@@ -12,7 +12,7 @@ public class ScrambleStringTest {
         String s1 = "abb";
         String s2 = "bba";
 
-        System.out.println(new ScrambleString().isScramble(s1, s2));
+        System.out.println(new ScrambleString().isScramble2(s1, s2));
     }
 
 }
