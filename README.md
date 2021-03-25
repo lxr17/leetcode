@@ -89,3 +89,4 @@
 | 85 | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/MaximalRectangle.java) | 困难 | 33.89% | 99.08% |
 | 86 | [Partition List](https://leetcode.com/problems/partition-list/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/PartitionList.java) | 中等 | 100.00% | 53.73% |
 | 87 | [Scramble String*](https://leetcode.com/problems/scramble-string/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/ScrambleString.java) | 困难 | 5.49% | 17.91% |
+| 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/MergeSortedArray.java) | 简单 | 100.00% | 54.08% |
