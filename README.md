@@ -90,3 +90,4 @@
 | 86 | [Partition List](https://leetcode.com/problems/partition-list/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/PartitionList.java) | 中等 | 100.00% | 53.73% |
 | 87 | [Scramble String*](https://leetcode.com/problems/scramble-string/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/ScrambleString.java) | 困难 | 5.49% | 17.91% |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/MergeSortedArray.java) | 简单 | 100.00% | 54.08% |
+| 89 | [Gray Code](https://leetcode.com/problems/gray-code/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/GrayCode.java) | 中等 | 17.98% | 5.47% |
