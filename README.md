@@ -91,3 +91,4 @@
 | 87 | [Scramble String*](https://leetcode.com/problems/scramble-string/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/ScrambleString.java) | 困难 | 5.49% | 17.91% |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/MergeSortedArray.java) | 简单 | 100.00% | 54.08% |
 | 89 | [Gray Code](https://leetcode.com/problems/gray-code/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/GrayCode.java) | 中等 | 17.98% | 5.47% |
+| 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/SubsetsII.java) | 中等 | 6.37% | 64.21% |
