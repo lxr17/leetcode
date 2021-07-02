@@ -39,14 +39,15 @@ public class RestoreIPAddresses {
      * 39.6MB  17.72% Memory
      */
     public List<String> restoreIpAddresses(String s) {
-        // 本质其实就是在s中确定三个位置放.
-        // 先找到中间的那个.
-        // 然后分别找第一个和第三个.
+        // 思路是在s中确定三个位置放点
+        // 先找到中间的那个点
+        // 然后分别找第一个和第三个点
         List<String> ans = new ArrayList<>();
 
         List<Integer> middles = findMiddlePoint(s);
+
         for (Integer middle : middles) {
-            findAndLoadRestPint(s, middle, ans);
+            findAndLoadRestPoint(s, middle, ans);
         }
 
         return ans;
@@ -62,7 +63,7 @@ public class RestoreIPAddresses {
         List<Integer> ans = new ArrayList<>();
         char[] chars = s.toCharArray();
 
-        // 左边的长度不能再2~6之间，右边的长度在2~6之间，然后注意0开头的情况
+        // 左边的长度在2~6之间，右边的长度在2~6之间，然后注意0开头的情况
         for (int i = 0; i < chars.length; i++) {
             // 左边的长度不能小于2
             if (i + 1 < 2) {
@@ -107,7 +108,7 @@ public class RestoreIPAddresses {
      * @param middlePoint
      * @param ans
      */
-    private void findAndLoadRestPint(String s, int middlePoint, List<String> ans) {
+    private void findAndLoadRestPoint(String s, int middlePoint, List<String> ans) {
         List<int[]> leftPart = new ArrayList<>();
         List<int[]> rightPart = new ArrayList<>();
 
@@ -123,7 +124,7 @@ public class RestoreIPAddresses {
     }
 
     /**
-     * 找到从[startIndex, end)之间满足条件的所有结果
+     * 找到从[startIndex, end)之间满足条件的一个点
      *
      * @param s
      * @param startIndex
