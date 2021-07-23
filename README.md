@@ -97,3 +97,4 @@
 | 93 | [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/RestoreIPAddresses.java) | 中等 | 35.02% | 17.72% |
 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/BinaryTreeInorderTraversal.java) | 简单 | 100.00% | 47.05% |
 | 95 | [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/UniqueBinarySearchTreesII.java) | 中等 | 100.00% | 95.06% |
+| 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/UniqueBinarySearchTrees.java) | 中等 | 100.00% | 66.59% |
