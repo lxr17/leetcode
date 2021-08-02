@@ -23,7 +23,7 @@
 | 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/RemoveNthNodeFromEndOfList.java) | 中等 | 10.52% | 100.00% |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/ValidParentheses.java) | 简单 | 60.63% | 100.00% |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/MergeTwoSortedLists.java) | 简单 | 100.00% | 15.83% |
-| 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) |  | 中等 |  |  |
+| 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/GenerateParentheses.java) | 中等 | 28.71% | 57.01% |
 | 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/MergeKSortedLists.java) | 困难 | 12.39% | 5.47% |
 | 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/SwapNodesInPairs.java) | 中等 | 100.00% | 100.00% |
 | 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/ReverseNodesInKGroup.java) | 困难 | 100.00% | 22.42% |
