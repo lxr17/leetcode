@@ -100,3 +100,4 @@
 | 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/UniqueBinarySearchTrees.java) | 中等 | 100.00% | 66.59% |
 | 97 | [Interleaving String](https://leetcode.com/problems/interleaving-string/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/InterleavingString.java) | 中等 | 30.06% | 72.33% |
 | 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/ValidateBinarySearchTree.java) | 中等 | 10.48% | 79.66% |
+| 99 | [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/RecoverBinarySearchTree.java) | 中等 | 35.89% | 71.04% |
