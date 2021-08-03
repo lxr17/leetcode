@@ -102,3 +102,4 @@
 | 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/ValidateBinarySearchTree.java) | 中等 | 10.48% | 79.66% |
 | 99 | [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/RecoverBinarySearchTree.java) | 中等 | 35.89% | 71.04% |
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/SameTree.java) | 简单 | 100.00% | 65.23% |
+| 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Java](https://github.com/lxr17/leetcode/blob/master/src/main/java/com/lxr/leetcode/SymmetricTree.java) | 简单 | 100.00% | 29.97% |
