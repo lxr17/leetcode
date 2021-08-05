@@ -1,5 +1,8 @@
 package com.lxr.leetcode;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * Given two integer arrays preorder and inorder where preorder is the preorder traversal of a binary tree and inorder is the inorder traversal of the same tree, construct and return the binary tree.
  * <p>
@@ -82,6 +85,117 @@ public class ConstructBinaryTreeFromPreorderAndInorderTraversal {
         root.right = buildTree(rightPreorder, rightInorder);
 
         return root;
+    }
+
+    /**
+     * 17ms    5.32% Run time
+     * 39.2MB  52.41% Memory
+     */
+    public TreeNode buildTree2(int[] preorder, int[] inorder) {
+        if (preorder == null || preorder.length == 0) {
+            return null;
+        }
+
+        TreeNode root = new TreeNode(preorder[0]);
+
+        if (preorder.length == 1) {
+            return root;
+        }
+
+        // 思路：将方法一递归的思路改成迭代（一层一层的生成节点）
+        Queue<TreeHelper> queue = new LinkedList<>();
+        TreeHelper helper = new TreeHelper();
+        helper.treeNode = root;
+        helper.preorder = preorder;
+        helper.inorder = inorder;
+        queue.add(helper);
+
+        while (!queue.isEmpty()) {
+            int splitIndex = 0;
+            helper = queue.poll();
+
+            // 找到分割点
+            for (int i = 0; i < helper.inorder.length; i++) {
+                if (helper.inorder[i] == helper.preorder[0]) {
+                    splitIndex = i;
+                    break;
+                }
+            }
+
+            // 找到左右子树
+            int[] leftPreorder = new int[splitIndex];
+            int[] leftInorder = new int[splitIndex];
+            int[] rightPreorder = new int[helper.preorder.length - splitIndex - 1];
+            int[] rightInorder = new int[helper.preorder.length - splitIndex - 1];
+            for (int i = 0; i < helper.preorder.length; i++) {
+                // 前序遍历拆分
+                if (i != 0) {
+                    if (i <= splitIndex) {
+                        leftPreorder[i - 1] = helper.preorder[i];
+                    } else {
+                        rightPreorder[i - 1 - splitIndex] = helper.preorder[i];
+                    }
+                }
+
+                // 中序遍历拆分
+                if (i != splitIndex) {
+                    if (i < splitIndex) {
+                        leftInorder[i] = helper.inorder[i];
+                    } else {
+                        rightInorder[i - splitIndex - 1] = helper.inorder[i];
+                    }
+                }
+            }
+
+            // 生成左子树根节点
+            if (leftPreorder.length > 0) {
+                TreeNode leftTreeNode = new TreeNode(leftPreorder[0]);
+                helper.treeNode.left = leftTreeNode;
+
+                if (leftPreorder.length > 1) {
+                    TreeHelper leftHelper = new TreeHelper();
+                    leftHelper.treeNode = leftTreeNode;
+                    leftHelper.preorder = leftPreorder;
+                    leftHelper.inorder = leftInorder;
+
+                    queue.add(leftHelper);
+                }
+            }
+
+            // 生成右子树根节点
+            if (rightPreorder.length > 0) {
+                TreeNode rightTreeNode = new TreeNode(rightPreorder[0]);
+                helper.treeNode.right = rightTreeNode;
+
+                if (rightPreorder.length > 1) {
+                    TreeHelper rightHelper = new TreeHelper();
+                    rightHelper.treeNode = rightTreeNode;
+                    rightHelper.preorder = rightPreorder;
+                    rightHelper.inorder = rightInorder;
+
+                    queue.add(rightHelper);
+                }
+            }
+        }
+
+        return root;
+    }
+
+    public static class TreeHelper {
+        /**
+         * 当前树
+         */
+        private TreeNode treeNode;
+
+        /**
+         * 当前树的前序遍历
+         */
+        private int[] preorder;
+
+        /**
+         * 当前树的中序遍历
+         */
+        private int[] inorder;
     }
 
     public static class TreeNode {
