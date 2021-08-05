@@ -1,0 +1,105 @@
+package com.lxr.leetcode;
+
+/**
+ * Given two integer arrays preorder and inorder where preorder is the preorder traversal of a binary tree and inorder is the inorder traversal of the same tree, construct and return the binary tree.
+ * <p>
+ * eg1.
+ * Input: preorder = [3,9,20,15,7], inorder = [9,3,15,20,7]
+ * Output: [3,9,20,null,null,15,7]
+ * <p>
+ * eg2.
+ * Input: preorder = [-1], inorder = [-1]
+ * Output: [-1]
+ * <p>
+ * Constraints:
+ * 1 <= preorder.length <= 3000
+ * inorder.length == preorder.length
+ * -3000 <= preorder[i], inorder[i] <= 3000
+ * preorder and inorder consist of unique values.
+ * Each value of inorder also appears in preorder.
+ * preorder is guaranteed to be the preorder traversal of the tree.
+ * inorder is guaranteed to be the inorder traversal of the tree.
+ */
+public class ConstructBinaryTreeFromPreorderAndInorderTraversal {
+
+    /**
+     * 14ms    5.83% Run time
+     * 39.3MB  45.06% Memory
+     */
+    public TreeNode buildTree(int[] preorder, int[] inorder) {
+        // 思路：利用递归
+        // 1. 前序遍历的第一个节点一定是根节点
+        // 2. 根据该节点来分隔中序遍历，从而找到中序遍历的左子树和右子树（因为均无重复元素）
+        // 3. 根据左右子树的长度和前序遍历，分别找到左右子树的前序遍历和中序遍历
+        // 4. 递归往下找
+        if (preorder == null || preorder.length == 0) {
+            return null;
+        }
+
+        if (preorder.length == 1) {
+            return new TreeNode(preorder[0]);
+        }
+
+        // 步骤1
+        TreeNode root = new TreeNode(preorder[0]);
+        int splitIndex = 0;
+
+        // 步骤2
+        for (int i = 0; i < inorder.length; i++) {
+            if (inorder[i] == preorder[0]) {
+                splitIndex = i;
+                break;
+            }
+        }
+
+        // 步骤3
+        int[] leftPreorder = new int[splitIndex];
+        int[] leftInorder = new int[splitIndex];
+        int[] rightPreorder = new int[preorder.length - splitIndex - 1];
+        int[] rightInorder = new int[preorder.length - splitIndex - 1];
+        for (int i = 0; i < preorder.length; i++) {
+            // 前序遍历拆分
+            if (i != 0) {
+                if (i <= splitIndex) {
+                    leftPreorder[i - 1] = preorder[i];
+                } else {
+                    rightPreorder[i - 1 - splitIndex] = preorder[i];
+                }
+            }
+
+            // 中序遍历拆分
+            if (i != splitIndex) {
+                if (i < splitIndex) {
+                    leftInorder[i] = inorder[i];
+                } else {
+                    rightInorder[i - splitIndex - 1] = inorder[i];
+                }
+            }
+        }
+
+        // 步骤4
+        root.left = buildTree(leftPreorder, leftInorder);
+        root.right = buildTree(rightPreorder, rightInorder);
+
+        return root;
+    }
+
+    public static class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode() {
+        }
+
+        TreeNode(int val) {
+            this.val = val;
+        }
+
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
+}
