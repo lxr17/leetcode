@@ -1,7 +1,6 @@
 package com.lxr.leetcode;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 /**
  * Given the head of a singly linked list where elements are sorted in ascending order, convert it to a height balanced BST.
@@ -79,7 +78,118 @@ public class ConvertSortedListToBinarySearchTree {
         return curTree;
     }
 
-    public class ListNode {
+    /**
+     * 0ms      100.00% Run time
+     * 40.1MB   45.25% Memory
+     */
+    public TreeNode sortedListToBST2(ListNode head) {
+        // 思路：关键点在于找到中位数
+        // 可以同时用两个指针指向 head ，快指针每次移动两个节点，慢指针每次移动一个节点
+        // 当快指针到链表末尾时，慢指针正好处于链表中位数所在地
+        if (head == null) {
+            return null;
+        }
+
+        ListNode fast = head;
+        ListNode slow = head;
+
+        while (fast != null) {
+            // 快指针每次移动两个节点（注意判空）
+            fast = fast.next;
+            if (fast != null) {
+                fast = fast.next;
+            }
+
+            // 确保 fast 比 slow 多移动一次，为了找到 middle 的前一个节点
+            if (fast != null && fast.next != null) {
+                // 慢指针每次移动一个节点
+                slow = slow.next;
+            }
+        }
+
+        // 用来拆分 ListNode
+        ListNode preMiddleNode = slow;
+        ListNode middleNode = slow.next;
+
+        if (middleNode != null) {
+            TreeNode middle = new TreeNode(middleNode.val);
+
+            preMiddleNode.next = null;
+            middle.left = sortedListToBST2(head);
+            middle.right = sortedListToBST2(middleNode.next);
+
+            return middle;
+        } else {
+            // 此时 head 只有一个节点
+            return new TreeNode(preMiddleNode.val);
+        }
+    }
+
+    /**
+     * 3ms      6.53% Run time
+     * 40.1MB   45.25% Memory
+     */
+    public TreeNode sortedListToBST3(ListNode head) {
+        // 思路：利用广度遍历构造树的结构，再利用深度遍历填充树的内容
+        if (head == null) {
+            return null;
+        }
+
+        ListNode cur = head;
+        TreeNode root = new TreeNode();
+
+        // 广度遍历构造树的结构
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+        while (cur.next != null) {
+            TreeNode treeNode = queue.poll();
+
+            // 左树
+            treeNode.left = new TreeNode();
+            queue.add(treeNode.left);
+
+            // 右树
+            cur = cur.next;
+            if (cur.next != null) {
+                treeNode.right = new TreeNode();
+                queue.add(treeNode.right);
+
+                cur = cur.next;
+            }
+        }
+
+        // 深度遍历填充数据（中序遍历）
+        Stack<TreeNode> stack = new Stack<>();
+        stack.push(root);
+
+        // 左树不断入栈
+        while (stack.peek().left != null) {
+            stack.push(stack.peek().left);
+        }
+
+        cur = head;
+        while (!stack.empty()) {
+            // 出栈
+            TreeNode temp = stack.pop();
+
+            // 填充中间
+            temp.val = cur.val;
+            cur = cur.next;
+
+            if (temp.right != null) {
+                stack.push(temp.right);
+
+                // 左树不断入栈
+                while (stack.peek().left != null) {
+                    stack.push(stack.peek().left);
+                }
+            }
+        }
+
+        return root;
+    }
+
+    public static class ListNode {
         int val;
         ListNode next;
 
@@ -96,7 +206,7 @@ public class ConvertSortedListToBinarySearchTree {
         }
     }
 
-    public class TreeNode {
+    public static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;
